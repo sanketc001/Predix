@@ -4,7 +4,7 @@
   <h3>PredixDB</h3>
 
   <p>
-    A media-tracking web app for movies, TV series, anime and manga: keep track of what you have watched, are watching, dropped or plan to watch next, and get genre-based recommendations.
+    A media-tracking web app for movies, TV series, anime and manga: keep track of what you have watched, what is on your watchlist and your favourites, and get genre-based recommendations.
     <br /><br />
     <a href="https://drive.google.com/file/d/11x-cAH6nTH0nfboQtacniusQFsTP4W9S/view?usp=sharing"><strong>Project report »</strong></a>
     ·
@@ -27,7 +27,7 @@ PredixDB is a Django web application built as a team project. Users sign up, bro
 
 - Separate dashboards for **movies, TV series, anime and manga**, each with *Recommended*, *Trending* (by ranking) and *Latest releases* rows.
 - Title detail pages with rating, genres, languages, release date, description and trailer link.
-- Personal lists per user (e.g. watching, completed, dropped, plan to watch) via the profile page.
+- Personal lists per user (**Watched**, **Watchlist**, **Favourite**) shown on the profile page.
 - Search by title, excluding titles already in the user's lists.
 - Email/password registration, login and logout using Django auth.
 
